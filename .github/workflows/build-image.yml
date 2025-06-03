@@ -37,6 +37,6 @@ jobs:
 
       - name: Tag as latest and push
         run: |
-          docker tag mrseams/order-service:latest mrseams/order-service:${{ github.sha }}
-          docker push mrseams/order-service:${{ github.sha }}
-          docker push mrseams/order-service:latest
+          docker tag mrseams/api-gateway:latest mrseams/api-gateway:${{ github.sha }}
+          docker push mrseams/api-gateway:${{ github.sha }}
+          docker push mrseams/api-gateway:latest
