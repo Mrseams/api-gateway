@@ -13,7 +13,7 @@ public class SecurityConfig {
         "/swagger-ui/**",
         "/v3/api-docs/**",
         "/swagger-resources/**",
-        "/api-docs/**",
+        "/api-docs/**", "/actuator/**",
         "/aggregate/**"
     };
 
